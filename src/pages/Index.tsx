@@ -1,26 +1,40 @@
-import Header from "../components/Header";
-import Hero from "../components/Hero";
-import BrandStory from "../components/BrandStory";
-import Products from "../components/Products";
-import StoreGallery from "../components/StoreGallery";
-import FranchiseProcess from "../components/FranchiseProcess";
-import CTABanner from "../components/CTABanner";
-import FloatingSocial from "../components/FloatingSocial";
-import Footer from "../components/Footer";
+import Navbar from '../components/layout/Navbar';
+import Footer from '../components/layout/Footer';
+import HeroSection from '../components/home/HeroSection';
+import ServicesCarousel from '../components/home/ServicesCarousel';
+import WhyChooseUs from '../components/home/WhyChooseUs';
+import HowItWorks from '../components/home/HowItWorks';
+import VideoSection from '../components/home/VideoSection';
+import BeforeAfterGallery from '../components/home/BeforeAfterGallery';
+import PricingSection from '../components/home/PricingSection';
+import TestimonialsCarousel from '../components/home/TestimonialsCarousel';
+import BrandsCarousel from '../components/home/BrandsCarousel';
+import BlogCarousel from '../components/home/BlogCarousel';
+import CTASection from '../components/home/CTASection';
+import WhatsAppButton from '../components/shared/WhatsAppButton';
+import BackToTop from '../components/shared/BackToTop';
 
 const Index = () => {
   return (
-    <main className="min-h-screen bg-background">
-      <Header />
-      <Hero />
-      <BrandStory />
-      <Products />
-      <StoreGallery />
-      <FranchiseProcess />
-      <CTABanner />
-      {/* <Footer /> */}
-      <FloatingSocial />
-    </main>
+    <>
+      <Navbar />
+      <main>
+        <HeroSection />
+        <BeforeAfterGallery />
+        <PricingSection />
+        {/* <ServicesCarousel /> */}
+        <WhyChooseUs />
+        <HowItWorks />
+        <VideoSection />
+        <TestimonialsCarousel />
+        <BrandsCarousel />
+        <BlogCarousel />
+        <CTASection />
+      </main>
+      <Footer />
+      <WhatsAppButton />
+      <BackToTop />
+    </>
   );
 };
 
