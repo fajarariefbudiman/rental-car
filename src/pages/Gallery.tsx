@@ -47,7 +47,7 @@ const Gallery = () => {
 
   return (
     <Layout>
-      <PageHero title="GALLERY" tagline="Momen bersama armada & pelanggan TemanPergi.id." />
+      <PageHero title="GALLERY" tagline="Momen bersama armada & pelanggan DigiatGroup" />
 
       <section className="container-px mx-auto max-w-7xl py-16">
         <div className="columns-2 md:columns-3 gap-4 [column-fill:_balance]">

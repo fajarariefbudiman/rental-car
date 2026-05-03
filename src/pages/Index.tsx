@@ -19,7 +19,7 @@ const REVIEWS = [
     badge: "Local Guide",
     count: "12 ulasan",
     time: "8 bulan lalu",
-    text: "Saya baru saja menggunakan jasa rental mobil dari Temanpergi.id dan sangat puas dengan pelayanannya. Mobil bersih, supir ramah, dan harga sangat bersaing. Recommended!",
+    text: "Saya baru saja menggunakan jasa rental mobil dari DigiatGroup dan sangat puas dengan pelayanannya. Mobil bersih, supir ramah, dan harga sangat bersaing. Recommended!",
   },
   {
     name: "Elzafan Dede",
@@ -124,7 +124,7 @@ const Index = () => {
         <div className="relative z-10 container-px mx-auto max-w-5xl text-center pt-6 pb-10">
           <p className="text-xs font-bold uppercase tracking-[0.3em] text-white/80">#TemanNyamanBepergianmu</p>
           <h1 className="mt-4 font-display text-4xl md:text-5xl lg:text-6xl font-black leading-tight text-white text-balance">
-            Pergi nyaman & aman, <span className="text-orange-300">temanpergi.id</span> selalu nemenin!
+            Pergi nyaman & aman, <span className="text-orange-300">digiatgroup</span> selalu nemenin!
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-sm md:text-base text-white/90 leading-relaxed">
             Rental mobil harian, mingguan & bulanan dari city car sampai SUV — untuk kebutuhan operasional kantor maupun pribadi Anda.
@@ -283,7 +283,7 @@ const Index = () => {
           <SectionHeading
             eyebrow="Layanan Kami"
             title="Kendaraan Untuk Semua Kebutuhan Perjalanan"
-            description="Kami paham setiap bisnis dan pribadi mempunyai kebutuhan transportasi yang beragam. Maka dari itu, TemanPergi.id menawarkan berbagai layanan sewa kendaraan sebagai solusi untuk memenuhi kebutuhan transportasi yang dapat disesuaikan dengan berbagai kebutuhan."
+            description="Kami paham setiap bisnis dan pribadi mempunyai kebutuhan transportasi yang beragam. Maka dari itu, DigiatGroup menawarkan berbagai layanan sewa kendaraan sebagai solusi untuk memenuhi kebutuhan transportasi yang dapat disesuaikan dengan berbagai kebutuhan."
           />
 
           <div className="mt-12 grid gap-6 md:grid-cols-2">

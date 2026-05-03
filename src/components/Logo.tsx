@@ -21,7 +21,7 @@ export const Logo = ({ size = "md", showText = true, className = "" }: LogoProps
       </div>
       {showText && (
         <span className={`mt-1 font-semibold tracking-wide ${textSize}`}>
-          temanpergi.id
+          DigiatGroup
         </span>
       )}
     </div>

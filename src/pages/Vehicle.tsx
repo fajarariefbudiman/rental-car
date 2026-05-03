@@ -12,7 +12,7 @@ const Vehicle = () => {
           <div className="shrink-0 w-full md:w-[380px] pb-10 md:pb-14">
             <h1 className="font-display text-4xl md:text-5xl font-black tracking-tight">VEHICLE</h1>
             <p className="mt-3 italic text-white/90 text-xs md:text-base leading-relaxed">
-              Pergi nyaman dan aman tanpa kendala temanpergi.id selalu nemenin!
+              Pergi nyaman dan aman tanpa kendala digiatgroup selalu nemenin!
             </p>
             <p className="mt-2 font-semibold text-sm md:text-base">#TemanNyamanBepergianmu</p>
           </div>

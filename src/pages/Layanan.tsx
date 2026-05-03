@@ -42,7 +42,7 @@ const Layanan = () => (
     <PageHero eyebrow="Layanan Kami" title="Produk & Layanan" tagline="Solusi rental mobil lengkap untuk semua kebutuhan mobilitas Anda — pribadi maupun korporat." />
 
     <section className="container-px mx-auto max-w-7xl py-16 md:py-24">
-      <SectionHeading eyebrow="Pilihan Layanan" title="Sesuaikan dengan kebutuhanmu" description="Dari perjalanan harian hingga kebutuhan operasional jangka panjang, TemanPergi.id punya solusinya." />
+      <SectionHeading eyebrow="Pilihan Layanan" title="Sesuaikan dengan kebutuhanmu" description="Dari perjalanan harian hingga kebutuhan operasional jangka panjang, DigiatGroup punya solusinya." />
 
       <div className="mt-12 grid gap-6 md:grid-cols-2">
         {SERVICES.map(({ id, icon: Icon, title, desc }) => (
@@ -66,7 +66,7 @@ const Layanan = () => (
     <section className="bg-ink text-white py-16">
       <div className="container-px mx-auto max-w-7xl">
         <p className="text-center text-xs font-bold uppercase tracking-[0.25em] text-primary">Keunggulan Kami</p>
-        <h2 className="mt-2 text-center font-display text-3xl md:text-4xl font-black">Kenapa pilih TemanPergi.id?</h2>
+        <h2 className="mt-2 text-center font-display text-3xl md:text-4xl font-black">Kenapa pilih DigiatGroup?</h2>
 
         <div className="mt-12 grid grid-cols-2 lg:grid-cols-4 gap-6">
           {STATS.map(({ icon: Icon, value, label }) => (

@@ -15,7 +15,7 @@ const Contact = () => {
 
   return (
     <Layout>
-      <PageHero eyebrow="Bantuan" title="Hubungi Kami" tagline="Tim TemanPergi.id siap membantu kebutuhan rental Anda 24/7." />
+      <PageHero eyebrow="Bantuan" title="Hubungi Kami" tagline="Tim DigiatGroup siap membantu kebutuhan rental Anda 24/7." />
 
       <section className="container-px mx-auto max-w-7xl py-16 md:py-20">
         <div className="grid gap-8 lg:grid-cols-5">
@@ -59,7 +59,7 @@ const Contact = () => {
             <div className="rounded-2xl bg-white border border-border p-6 shadow-sm space-y-4">
               <p className="text-xs font-bold uppercase tracking-wider text-primary">Info Kontak</p>
               <InfoRow icon={MessageCircle} title="WhatsApp" value="+62 812-3456-7890" href={WHATSAPP_URL} />
-              <InfoRow icon={Mail} title="Email" value="hello@temanpergi.id" href="mailto:hello@temanpergi.id" />
+              <InfoRow icon={Mail} title="Email" value="hello@gmail.com" href="mailto:hello@gmail.com" />
               <InfoRow icon={Clock} title="Jam Operasional" value="24 Jam, 7 hari seminggu" />
               <InfoRow icon={MapPin} title="Alamat" value="Jl. Sudirman, Jakarta Selatan" />
             </div>
@@ -77,7 +77,7 @@ const Contact = () => {
 
         <div id="lokasi" className="mt-12 overflow-hidden rounded-2xl border border-border h-[300px]">
           <iframe
-            title="Lokasi TemanPergi.id"
+            title="Lokasi DigiatGroup"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.295999074673!2d106.8194732!3d-6.2087634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x5371bf0fdad786a2!2sJakarta!5e0!3m2!1sen!2sid!4v1700000000000"
             className="w-full h-full border-0"
             loading="lazy"

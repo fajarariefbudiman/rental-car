@@ -10,14 +10,14 @@ const FEATURES = [
 
 const About = () => (
   <Layout>
-    <PageHero title="ABOUT US" tagline="Pergi nyaman dan aman tanpa kendala temanpergi.id selalu nemenin!" />
+    <PageHero title="ABOUT US" tagline="Pergi nyaman dan aman tanpa kendala selalu nemenin!" />
 
     <section className="container-px mx-auto max-w-5xl py-16 md:py-24 text-center">
       <h2 className="font-display text-3xl md:text-5xl font-black text-ink">
         Siapa Kami<span className="text-primary">.</span>
       </h2>
       <p className="mt-6 text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-        TemanPergi.id adalah penyedia jasa rental mobil bulanan terpercaya di Jabodetabek.
+        DigiatGroup adalah ...... bulanan terpercaya di Jabodetabek.
         Misi kami adalah menjadi teman perjalanan Anda yang nyaman, aman, dan terjangkau —
         baik untuk kebutuhan operasional kantor maupun pribadi.
       </p>

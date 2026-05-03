@@ -42,7 +42,7 @@ const Promo = () => (
     <section className="bg-secondary py-16">
       <div className="container-px mx-auto max-w-7xl text-center">
         <h2 className="font-display text-3xl font-black text-ink">Ikuti Instagram Kami</h2>
-        <p className="mt-2 text-muted-foreground">@temanpergi.id — update promo & konten harian</p>
+        <p className="mt-2 text-muted-foreground">@digiatgroup — update promo & konten harian</p>
         <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-2">
           {Array.from({ length: 6 }).map((_, i) => (
             <div key={i} className="aspect-square rounded-xl bg-gradient-to-br from-primary/30 to-primary/70" />
