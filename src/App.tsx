@@ -20,7 +20,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename='/template/teman-pergi'>
+      <BrowserRouter basename='/template/rental'>
         <Routes>
           <Route path='/' element={<Index />} />
           <Route path='/vehicle' element={<Vehicle />} />

@@ -170,4 +170,4 @@ export const VEHICLES: Vehicle[] = [
     price24h: "2.0 JT",
   },
 ];
-export const WHATSAPP_URL = "/template/teman-pergi/contact";
+export const WHATSAPP_URL = "/template/rental/contact";
